@@ -76,3 +76,6 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 
 # Feature flags
 persist.sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
+# Notch Overlay
+ro.miui.notch=1
