@@ -57,8 +57,4 @@
     <string name="dc_dimming_enable_summary">Reduces eye strain in low light conditions</string>
     <string name="dc_dimming_enable_summary_not_supported">DC Dimming is currently not supported by the kernel</string>
 
-4    <!-- Dirac -->
-    <string name="dirac_tile_on">On</string>
-    <string name="dirac_tile_off">Off</string>
-
 </resources>
