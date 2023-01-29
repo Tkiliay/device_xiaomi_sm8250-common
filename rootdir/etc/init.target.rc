@@ -195,6 +195,9 @@ on boot
     chmod 0664 /sys/class/power_supply/battery/dc_thermal_levels
     # Load all wlan drivers
     #exec_background u:r:vendor_modprobe:s0 -- /vendor/bin/modprobe -a -d /vendor/lib/modules/ qca_cld3_qca6390 qca_cld3_qca6490
+	
+    # default country code
+    setprop ro.boot.wificountrycode 00
 
     write /sys/block/sda/queue/wbt_lat_usec 75000
 
