@@ -230,6 +230,10 @@ debug.hwui.target_cpu_time_percent=20
 persist.vendor.pps.disallowed=1
 persist.vendor.hvdcp_opti.disallowed=1
 
+# HVDCP
+persist.vendor.pps.disallowed=1
+persist.vendor.hvdcp_opti.disallowed=1
+
 # Keystore
 ro.hardware.keystore_desede=true
 
