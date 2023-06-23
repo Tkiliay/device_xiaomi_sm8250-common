@@ -26,6 +26,7 @@ import android.media.AudioManager;
 import android.media.session.MediaController;
 import android.media.session.MediaSessionManager;
 import android.media.session.PlaybackState;
+
 import java.util.List;
 
 public class DiracUtils {
@@ -92,7 +93,7 @@ public class DiracUtils {
         return PlaybackState.STATE_NONE;
     }
 
-    private void refreshPlaybackIfNecessary(){
+    private void refreshPlaybackIfNecessary() {
         if (mMediaSessionManager == null) return;
 
         final List<MediaController> sessions
