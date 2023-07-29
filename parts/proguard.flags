@@ -17,6 +17,3 @@
 -keep class org.lineageos.settings.thermal.* {
   *;
 }
--keep class org.lineageos.settings.doze.* {
-  *;
-}
